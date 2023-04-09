@@ -4,18 +4,17 @@
     color: white;
     padding: 20px;
     font-size: 25px;
+    width: 100%;
 }
 
-html, body {
-    margin: 0;
-}
 
 .fondo {
-    background: url('../img/fondo.jpg');
+    background-image: url(../img/fondo.jpg); 
     background-position: center;
     background-size: cover;
     height: 100vh;
-    max-width: 100%;
+   
+    /*padding: auto;*/
 }
 
 .carta {
