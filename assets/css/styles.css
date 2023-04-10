@@ -33,7 +33,7 @@ h1 {
    font-weight: bold;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1535px) {
     .fondo {
         background-image: url(../img/fondo.jpg); 
         background-position: center;
@@ -42,5 +42,9 @@ h1 {
        
         /*padding: auto;*/
     }
+}
+
+html, body {
+    margin: 0px;
 }
 
